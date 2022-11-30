@@ -23,3 +23,4 @@ The provided python script:
 - rasterizes attribute "vertical displacement (Dz)" of the distance point cloud with highest accuracy (post-processing level IV)
 - applies a Sobel edge detection filter to highlight high image gradients 
 - applies kMeans algorithm to cluster image into two categories: change (high image gradient) and no change (low image gradient)
+- clips distance point cloud to areas of change (high image gradient)
